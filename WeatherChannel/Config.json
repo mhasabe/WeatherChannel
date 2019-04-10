@@ -1,0 +1,17 @@
+{
+   
+    "WeatherAPI": {
+      "APIKey": "075dccb8865ecdc3878d377ab2f41a73",
+      "APIUrl": "https://api.openweathermap.org/data/2.5/weather?zip={0}&appid={1}"
+    },
+
+    "ZoneAPI": {
+      "APIKey": "AIzaSyCyv0sbfQZcMxd6W19bkQdmpjeAaEqCTbw",
+      "APIUrl": "https://maps.googleapis.com/maps/api/timezone/json?location={0},{1}&timestamp={2}&key={3}"
+    },
+
+    "ElevationAPI": {
+      "APIKey": "AIzaSyCyv0sbfQZcMxd6W19bkQdmpjeAaEqCTbw",
+      "APIUrl": "https://maps.googleapis.com/maps/api/elevation/json?locations={0},{1}&key={2}"
+    }
+  }

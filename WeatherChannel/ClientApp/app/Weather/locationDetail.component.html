@@ -1,0 +1,32 @@
+﻿<div class="card">
+    <div class="card-header">
+        Location Detail
+    </div>
+    <div class="card-body bg-light">
+
+
+        <div class="form-group">
+            <label>Enter Zip Code:</label>
+            <input class="form-control" type="text" [(ngModel)]="zipcode" />
+
+            <div class="text-danger">
+                {{error}}
+            </div>
+        </div>
+    
+
+        <div class="form-group">
+            <button class="btn btn-primary" (click)="getLocationDetail()"> Search </button>
+
+            <div>
+                <hr />
+            </div>
+
+            <div class="text-success">
+                {{locationInfo}}
+            </div>
+        </div>
+
+
+    </div>
+</div>
